@@ -7,7 +7,7 @@ class BurgerBuilder extends Component {
   render() {
     return (
       <>
-        <Burger />
+        <Burger ingerdients={this.state.ingerdients} />
         <div>Build Controls</div>
       </>
     );
